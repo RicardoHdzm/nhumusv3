@@ -1,0 +1,413 @@
+
+html, body {
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+
+body{
+	overflow: overlay;
+}
+
+div{
+	margin: 0!important;
+	padding: 0!important;
+}
+
+
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 48px;
+}
+
+h2{
+		font-family: 'Playfair Display', serif;
+}
+
+h5{
+	font-weight: 300;
+	font-size: 16px;
+
+}
+
+h4{
+	font-weight: 400;
+}
+
+
+h4>a{
+	color:#828a82;;
+}
+
+h4>a:hover{
+	color :#828a82;
+	text-decoration: underline;
+}
+
+.navbar{
+	background-color: #eaeae8;
+	font-size: 2rem;
+	font-weight: 300;
+	color:#828a82;
+	box-shadow: 0px 8px 8px -6px rgba(0,0,0,.6);
+}
+
+.archelogo{
+	filter: grayscale(100%);
+	height: 18px;
+	vertical-align: top;
+}
+
+.archelogo:hover{
+	filter: grayscale(0%);
+}
+
+.navbar-brand:hover{
+	opacity: .9;
+}
+
+.navbar-nav>a{
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #828a82!important;
+	font-size: medium;
+}
+
+.navbar a:hover{
+	color: #B9A16A!important;
+
+}
+.nav-logo{
+	width: 120px;
+
+}
+
+
+.footer{
+	background-color: #f4f4f4;
+	height: fit-content;
+	font-size: 14px;
+	color: #707070;
+}
+
+.icon-size{
+  vertical-align:bottom;
+	font-size: 22px;
+}
+
+.carousel{
+	height: 100vh;
+}
+
+
+.section2{
+	height: fit-content;
+	background-color: #f4f4f4;
+	color: #828a82;
+}
+
+.section{
+	height: fit-content;
+	background-color: #eaeae8;
+	color: #828a82;
+}
+
+.contact{
+	height: fit-content;
+	background-color: #eaeae8;
+	color: #828a82;
+}
+
+.contact h4{
+	font-weight: 500!important;
+	font-size: medium;
+}
+
+.tittles{
+	font-family: 'Playfair Display', serif;
+}
+
+.body-text{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.section-img{
+	width: 100%;
+}
+
+.section-btn{
+	background-color: #828a82;
+	font-size: medium;
+	color: white;
+	border: solid;
+	border-width: 2px;
+	border-color: #828a82;
+	border-radius: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.section-btn:hover{
+	color: white;
+	background-color: #B9A16A;
+	border-color: #B9A16A;
+}
+
+.section3-btn{
+	background-color: #756a52;
+	color: white;
+	border: solid;
+	border-width: 2px;
+	border-color: #756a52;
+	border-radius: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.section3-btn:hover{
+	color: white;
+	background-color: #828a82;
+	border-color: #828a82;
+}
+
+.carousel-caption{
+	transform: translateY(-50%);
+  bottom: 0;
+  top: 65%;
+}
+
+
+.slide{
+	height: 100vh;
+}
+
+.slide-btn{
+	font-size: medium;
+	background-color: transparent;
+	color: white;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.slide-btn:hover{
+	background-color: white;
+	color: black;
+	border-color: white;
+}
+
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+
+.img-invert{
+	width: 100px;
+	filter: invert(100%);
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+}
+
+.text {
+  color: white;
+  font-size: medium;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  user-select: none;
+}
+
+
+.about-img{
+	max-width: 100%;
+	height: 100%;
+}
+
+ .map-container{
+  overflow:hidden;
+  position:relative;
+  height: 0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  filter: grayscale(100%) brightness(1);
+}
+
+.img-footer{
+	width: 200px;
+	opacity: .5;
+}
+
+.home{
+	cursor: pointer;
+}
+
+.section h4{
+	font-size: large;
+}
+
+.section2 h4{
+	font-size: large;
+}
+
+
+#topBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 35px; /* Place the button 30px from the right */
+  z-index: 90; /* Make sure it does not overlap */
+  outline: none; /* Remove outline */
+  border-color: transparent;
+  background-color: transparent; /* Set a background color */
+  color: gray; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-weight: bolder;
+  transition: 0.5s ease;
+  opacity: .5;
+
+}
+
+#topBtn:hover {
+  color: #a39180;
+  opacity: 1;
+}
+
+.arrow-size{
+	font-size: 65px;
+	user-select: none;
+}
+
+.form-control{
+	background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  color: #828a82;
+  border-color: #828a82;
+  border-width: 2px;
+  font-size: 20px;
+}
+
+.form-control:focus, .form-control:active{
+	background-color: transparent;
+	outline: none !important;
+  box-shadow: none;
+  border-color: #B9A16A;
+}
+
+.form-border{
+	border: solid!important;
+	border-color: #828a82;
+	border-width: 2px!important;
+}
+
+.img-mrg{
+	width: 100%;
+}
+
+.social-icon{
+	width: 25px;
+	height: 25px;
+}
+
+.social-icon:hover{
+	opacity: .8;
+}
+
+.social-icon-nav{
+	filter: grayscale(100%);
+}
+
+.social-icon-nav:hover{
+	filter: grayscale(0%);
+}
+
+.lotslink a{
+	text-decoration: none;
+	color: #828a82;
+	font-size: large;
+}
+
+.lotslink a:hover{
+	text-decoration: none;
+	color: #B9A16A;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(234,234,232, .2)
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #828a82;
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #B9A16A;
+}
+
+
+.asset{
+	width: 80px;
+}
+
+.shadowbox{
+	border: solid;
+	border-width: thin;
+	border-radius: 10px;
+	border-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	margin-left: 20px!important;
+	margin-bottom: 20px!important;
+	text-align: justify-all;
+}
+
+.lots-btn{
+	width: 100%;
+	background-color: #828a82;
+	color: white;
+	border: solid;
+	font-size: medium;
+	border-width: 2px;
+	border-color: #828a82;
+	border-radius: 2px;
+}
+
+.lots-btn:hover{
+	color: white;
+	background-color: #B9A16A;
+	border-color: #B9A16A;
+}
